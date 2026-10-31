@@ -1,0 +1,39 @@
+{
+  "k-NN": {
+    "accuracy": 0.9722222222222222,
+    "f1_macro": 0.9721743793936307,
+    "fit_s": 0.0021367500303313136,
+    "predict_s": 0.016778042016085237
+  },
+  "Softmax": {
+    "accuracy": 0.7722222222222223,
+    "f1_macro": 0.765475920343177,
+    "fit_s": 0.31320308399153873,
+    "predict_s": 0.00029008398996666074
+  },
+  "CNN": {
+    "accuracy": 1.0,
+    "f1_macro": 1.0,
+    "fit_s": 9.322876999969594,
+    "predict_s": 0.0930170840001665
+  },
+  "_config": {
+    "SEED": 42,
+    "knn": {
+      "acc": 1.0,
+      "k": 1,
+      "metric": "euclidean"
+    },
+    "softmax": {
+      "val_acc": 0.8055555555555556,
+      "lr": 0.01,
+      "reg": 0.001
+    },
+    "cnn_epochs_effectuees": 35
+  },
+  "_class_names": [
+    "rock",
+    "paper",
+    "scissors"
+  ]
+}
